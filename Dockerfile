@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM eclipse-temurin:17
 COPY . /app
 WORKDIR /app
 RUN javac App.java
